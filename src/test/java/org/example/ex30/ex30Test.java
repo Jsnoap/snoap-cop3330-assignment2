@@ -15,7 +15,7 @@ import static org.junit.Assert.assertEquals;
 public class ex30Test
 {
     @Test
-    public void checkDoublingTime()
+    public void checkMultTable()
     {
         // Function returns last multiple if successfully formed
         assertEquals(144, ex30.formMultTable());
