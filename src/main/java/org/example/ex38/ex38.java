@@ -22,7 +22,7 @@ public class ex38 {
 
         numsArray = createArrayAndRemoveSpaces(numsEntered);
 
-        evensArray = createEvensArray(numsArray);
+        evensArray = filterEvenNumbers(numsArray);
 
         printEvens(evensArray);
     }
@@ -57,7 +57,7 @@ public class ex38 {
         return numsFixedLen;
     }
 
-    public static char[] createEvensArray(char[] allNums)
+    public static char[] filterEvenNumbers(char[] allNums)
     {
         int i, index = 0;
         char[] evensBadLen = new char[allNums.length];

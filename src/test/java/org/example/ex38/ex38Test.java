@@ -21,7 +21,7 @@ public class ex38Test {
         char[] nums = {'1','2','3','4'};
         char[] evens = {'2','4'};
 
-        assertArrayEquals(evens, ex38.createEvensArray(nums));
+        assertArrayEquals(evens, ex38.filterEvenNumbers(nums));
     }
 
     @Test
