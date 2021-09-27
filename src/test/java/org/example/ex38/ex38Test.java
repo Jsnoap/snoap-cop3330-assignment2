@@ -8,7 +8,7 @@ package org.example.ex38;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
-// import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Unit test for simple App.
@@ -29,6 +29,6 @@ public class ex38Test {
     {
         char[] nums = {'1','2','3','4'};
 
-        assertArrayEquals(nums, ex38.createArrayAndRemoveSpaces("1 2 3 4"));
+        assertEquals(nums, ex38.createArrayAndRemoveSpaces("1 2 3 4"));
     }
 }
